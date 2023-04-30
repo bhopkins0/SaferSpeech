@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A web-based platform to help journalists express their freedom of speech.">
+    <title>SaferSpeech Beta | Verify</title>
+
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link href="/index.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+    <main>
+        <div class="d-flex flex-column min-vh-100">
+            <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+                <div>
+                    <h1 class="display-4 fw-normal">SaferSpeech Verification</h1>
+                    <p class="lead">It is important to verify that the SaferSpeech website you are visiting is authentic.<br>Before using SaferSpeech in a hostile environment, there are a few things you should check and be aware of.</p>
+
+                    <br>
+
+
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Check that you are using HTTPS</div>
+                                If the "HTTPS" symbol in your browser's address bar is red, or indicates the connection is insecure, <i>do not sign into SaferSpeech</i>. Your connection may be compromised and an adversary could be attempting to capture your login data.
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Verify SaferSpeech's TLS certificate</div>
+                                Depending on your browser, the method for doing this may vary.
+                                <br><br>In Firefox, click the "lock" icon next to the address bar, click "Connection Secure", then click "More Information".
+                                <br>It will open a window where you will need to click "View Certificate".
+                                <br>This page will show you information about SaferSpeech's TLS certificate.
+                                <br><br>You will need to verify that the SHA-1 fingerprint listed on the certificate matches the one <a href="fingerprint.txt">here</a>.
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Verify PGP Key</div>
+                                The PGP key used for any communication from the developer of SaferSpeech can be found <a href="pgp.txt">here</a>.
+                                <br><br>It is a good idea to save the PGP key on a non-hostile network if possible. The fingerprint of the PGP key is:
+                                <br><br><samp>DA24 3A2B 9139 C78C 332F D36F 36B9 A117 3DCB F7EE<samp>
+                            </div>
+                        </li>
+                        </ol>
+                </div>
+            </div>
+        </div>
+</div>
+</main>
+</div>
+
+
+
+</body>
+</html>

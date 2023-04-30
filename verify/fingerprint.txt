@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Verify this message is successfully signed via PGP.
+If this message is not signed by the SaferSpeech developer's PGP key, then do not use SaferSpeech's website and void this message.
+
+The PGP key can be found in the following places:
+https://pgp.brenthopkins.me/
+https://saferspeech.com/verify/pgp.txt
+https://keys.openpgp.org/ (search contact@brenthopkins.me)
+https://keyserver.ubuntu.com/ (search contact@brenthopkins.me)
+
+The fingerprint of the PGP key should be:
+DA24 3A2B 9139 C78C 332F D36F 36B9 A117 3DCB F7EE
+
+=====================================
+
+Do not use SaferSpeech's website if the fingerprints below do not match the ones on the TLS certificate in your browser.
+
+The SHA-1 fingerprint of SaferSpeech's TLS certificates is:
+
+AD:56:FC:EF:EF:0B:BE:5B:A1:45:B6:FE:7D:63:C5:5B:4C:86:8C:F8
+
+The SHA-256 fingerprint of SaferSpeech's TLS certificates is:
+
+76:88:F3:1F:45:A9:0E:0B:80:4E:A4:1B:72:1C:35:CE:A2:C9:6A:1C:4A:ED:8D:51:77:8E:50:C1:AE:3A:32:C0
+
+This information is valid until the certificate expires Sat, 03 Jun 2023 23:34:26 GMT, in which a new one will be generated.
+
+The CA issuing SaferSpeech's TLS certificates is Let's Encrypt.
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTaJDorkTnHjDMv0282uaEXPcv37gUCZDxheAAKCRA2uaEXPcv3
+7is4AQChgJvRV6lsggvNlOlBbEu2GR0Oi2oE2cqiWcl+FDVBdgEA3PaUdfzQK+vh
+/yFhJhrNwGj1O/SlWfQ7Ki9Zq8KVbAc=
+=C96Y
+-----END PGP SIGNATURE-----
